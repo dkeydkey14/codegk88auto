@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                     'Content-Type': 'application/json'
                                 },
                                 body: JSON.stringify({
-                                    assignedAccount: username,
+                                    assignedAccount: username.toLowerCase(),
                                     points: points
                                 })
                             });
